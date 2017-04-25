@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nightwatch.js to C# Coypu script translator",
+  "description": "This extension will take a nightwatch script and convert it to C# Coypu code.",
+  "version": "1.0",
+  "permissions": [
+	"storage",
+    "webNavigation",
+    "tabs",
+    "*://*/"
+  ],
+  "browser_action": {
+    "default_icon": "drawing.png",
+    "default_popup": "popup.html"
+  }
+
+}
